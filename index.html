@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Way Chiropractic - Calgary's Trusted Chiropractic Care</title>
+    <meta name="description" content="Feel Better, Move Freely, Live Naturally. 24+ years serving Calgary with gentle chiropractic care, massage therapy, and physiotherapy. Book your appointment today!">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Natural Way Chiropractic</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#services" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#chiropractic">Chiropractic Care</a></li>
+                        <li><a href="#massage">Massage Therapy</a></li>
+                        <li><a href="#physiotherapy">Physiotherapy</a></li>
+                        <li><a href="#pediatric">Pediatric Care</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#new-patients" class="nav-link">New Patients</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link cta-button">Book Appointment</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <video autoplay muted loop playsinline>
+                <source src="https://energizehealth.ca/media/videos/2022/02/17/production-id_4520173.mp4" type="video/mp4">
+                <!-- Fallback image for browsers that don't support video -->
+                <img src="https://chibodyworks.com/wp-content/uploads/2025/04/maxresdefault-7-1.jpg" alt="Smiling chiropractor helping patient" loading="lazy">
+            </video>
+        </div>
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Feel Better, Move Freely, Live Naturally</h1>
+                    <h2>Calgary's Trusted Chiropractic Care</h2>
+                    <p class="hero-subtitle">24+ years serving Calgary | 4.9★ from 400+ reviews</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Book Appointment</a>
+                        <a href="tel:+14031234567" class="btn btn-secondary">
+                            <i class="fas fa-phone"></i> (403) 123-4567
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Practice</h2>
+                <p>Dedicated to providing gentle, effective chiropractic care for over two decades</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Health is Our Priority</h3>
+                    <p>At Natural Way Chiropractic, we believe in a holistic approach to wellness. Our experienced team combines traditional chiropractic techniques with modern therapeutic methods to help you achieve optimal health and mobility.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-user-md"></i>
+                            <div>
+                                <h4>Experienced Team</h4>
+                                <p>Licensed professionals with specialized training</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Gentle Approach</h4>
+                                <p>Personalized treatment plans for every patient</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Proven Results</h4>
+                                <p>Thousands of satisfied patients over 24+ years</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://static.jobboard.io/uploads/wysiwyg/460772e5-d198-4214-a5ea-0eea491eb362_americanchirocare2.jpg" alt="Chiropractic team in modern clinic" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive care for all your musculoskeletal needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" id="low-back-pain">
+                    <div class="service-icon">
+                        <i class="fas fa-head-side-virus"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Low back pain treatment" loading="lazy">
+                    <div class="service-content">
+                        <h3>Low Back Pain</h3>
+                        <p>Gentle spinal adjustments and corrective techniques to restore proper alignment and relieve lower back discomfort.</p>
+                        <a href="#contact" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="service-card" id="neck-pain">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Neck pain treatment" loading="lazy">
+                    <div class="service-content">
+                        <h3>Neck Pain</h3>
+                        <p>Specialized techniques to address neck tension, stiffness, and pain from poor posture or injury.</p>
+                        <a href="#contact" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="service-card" id="massage">
+                    <div class="service-icon">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Therapeutic massage" loading="lazy">
+                    <div class="service-content">
+                        <h3>Massage Therapy</h3>
+                        <p>Professional therapeutic massage to reduce tension, improve circulation, and promote healing.</p>
+                        <a href="#contact" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="service-card" id="physiotherapy">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Physiotherapy exercises" loading="lazy">
+                    <div class="service-content">
+                        <h3>Physiotherapy</h3>
+                        <p>Evidence-based rehabilitation programs to restore movement and function after injury or surgery.</p>
+                        <a href="#contact" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="service-card" id="pediatric-care">
+                    <div class="service-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Pediatric chiropractic care" loading="lazy">
+                    <div class="service-content">
+                        <h3>Pediatric Care</h3>
+                        <p>Specialized gentle care for children and infants to support healthy development and growth.</p>
+                        <a href="#contact" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Natural Way Chiropractic?</h2>
+                <p>Experience the difference that 24+ years of dedicated care makes</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Gentle Techniques</h3>
+                    <p>We use gentle, non-invasive approaches that respect your body's natural healing process.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Corrective Approach</h3>
+                    <p>Our focus is on addressing the root cause of your condition, not just masking symptoms.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-friends"></i>
+                    <h3>Personal Treatment Plans</h3>
+                    <p>Every patient receives a customized treatment plan tailored to their specific needs and goals.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Flexible Scheduling</h3>
+                    <p>We offer convenient appointment times to fit your busy schedule, including same-day availability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Patients Say</h2>
+                <p>Real reviews from real patients who've experienced the Natural Way difference</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Dr. Smith and his team are absolutely amazing! After years of chronic back pain, I finally found relief. The gentle approach and personalized care made all the difference. I can't recommend them enough!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://kyruus-app-static.kyruus.com/providermatch/johnshopkins/photos/orig/johnson-sara.jpg?1723150235071" alt="Sarah Johnson" loading="lazy">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <span>Google Review</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The staff here is incredibly professional and caring. They took the time to explain everything and made me feel comfortable throughout my treatment. My neck pain is completely gone!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="Mike Chen" loading="lazy">
+                            <div>
+                                <h4>Mike Chen</h4>
+                                <span>Google Review</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I've been coming here for over 10 years and they've never let me down. The team is knowledgeable, friendly, and truly cares about your wellbeing. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="David Wilson" loading="lazy">
+                            <div>
+                                <h4>David Wilson</h4>
+                                <span>Google Review</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" onclick="changeSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" onclick="changeSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Patients Section -->
+    <section id="new-patients" class="new-patients">
+        <div class="container">
+            <div class="new-patients-content">
+                <div class="new-patients-text">
+                    <h2>New Patient Information</h2>
+                    <p>Welcome to Natural Way Chiropractic! We're excited to help you on your journey to better health and wellness.</p>
+                    <div class="new-patient-features">
+                        <div class="feature-item">
+                            <i class="fas fa-file-medical"></i>
+                            <div>
+                                <h3>Easy Online Forms</h3>
+                                <p>Complete your intake forms online before your visit</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Extended First Visit</h3>
+                                <p>90-minute comprehensive consultation and treatment</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <h3>New Patient Special</h3>
+                                <p>50% off your first visit - limited time offer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Schedule Your First Visit</a>
+                </div>
+                <div class="new-patients-image">
+                    <img src="https://cdn.shopify.com/s/files/1/0433/5396/4703/files/04_Waiting_and_Reception_Area_for_a_Clinic_480x480.jpg?v=1723660511" alt="Welcoming clinic environment" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Appointment</h2>
+                <p>Ready to start your journey to better health? Contact us today!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+14031234567">(403) 123-4567</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@naturalwaychiro.com">info@naturalwaychiro.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Wellness Street<br>Calgary, AB T2P 1A1</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon-Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 3:00 PM<br>Sun: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="chiropractic">Chiropractic Care</option>
+                                <option value="massage">Massage Therapy</option>
+                                <option value="physiotherapy">Physiotherapy</option>
+                                <option value="pediatric">Pediatric Care</option>
+                                <option value="consultation">Free Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your concerns or preferred appointment time" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.123456789!2d-114.0719!3d51.0447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDAyJzQwLjkiTiAxMTTCsDA0JzE4LjgiVw!5e0!3m2!1sen!2sca!4v1234567890" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Articles From Our Team</h2>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Manual Osteopathic Therapy" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">08 September 2024</span>
+                            <span class="blog-category">Blog</span>
+                        </div>
+                        <h3>ICYMI - Energize's Owner Lisa's Personal Experience with Manual Osteopathic Therapy</h3>
+                        <p>Message from our owner, Lisa, as seen in our email newsletter on July 22, 2024. Never miss an update...</p>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Posture Myth" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">21 November 2024</span>
+                            <span class="blog-category">Blog</span>
+                        </div>
+                        <h3>Debunking the Posture Myth</h3>
+                        <p>For years, posture has been blamed as a primary cause of back pain. We've all heard it (and we've...</p>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Health and Wellness" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">12 September 2024</span>
+                            <span class="blog-category">Blog</span>
+                        </div>
+                        <h3>Don't Drop the Ball on Your Health</h3>
+                        <p>Payton Manning is a Super Bowl winning, NFL hall of famer who currently hosts a Monday night...</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join our Newsletter!</h2>
+                <p>Stay in touch to receive special offers and the latest updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Natural Way Chiropractic</h3>
+                    <p>Your trusted partner in health and wellness for over 24 years. We're committed to providing gentle, effective care that helps you live your best life.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Google"><i class="fab fa-google"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#new-patients">New Patients</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#chiropractic">Chiropractic Care</a></li>
+                        <li><a href="#massage">Massage Therapy</a></li>
+                        <li><a href="#physiotherapy">Physiotherapy</a></li>
+                        <li><a href="#pediatric">Pediatric Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (403) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@naturalwaychiro.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Wellness Street<br>Calgary, AB T2P 1A1</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Natural Way Chiropractic. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
